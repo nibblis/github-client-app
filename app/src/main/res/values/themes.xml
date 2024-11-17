@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.GithubClient" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="AppTheme.Starting" parent="Theme.SplashScreen">
+        <item name="postSplashScreenTheme">@style/Theme.GithubClient</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_github_mark</item>
+        <item name="windowSplashScreenBackground">@color/background</item>
+    </style>
+
+</resources>
